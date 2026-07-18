@@ -1,0 +1,42 @@
+city: Beijing
+input_path: ../data/processed/beijing_tdrive/activity_segments_gcj02.csv
+output_dir: outputs/beijing_tdrive
+limit:
+night_window:
+  start_hour: 20
+  end_hour: 3
+pipeline:
+  n_clusters: 5
+spatial_unit:
+  type: h3
+  fallback_type: grid
+  resolution: 7
+  coordinate_system: gcj02
+map:
+  provider: amap
+  center:
+    lat: 39.9042
+    lon: 116.4074
+  zoom: 11
+phase2:
+  enabled: true
+  poi:
+    enabled: true
+    source: inferred_from_grid_activity
+  hub_detection:
+    enabled: true
+    apply_penalty: true
+phase3:
+  enabled: true
+  scoring_methods:
+    - manual
+    - entropy
+    - pca
+  anomaly_attribution: true
+  forecasting: true
+notes:
+  data_source: Beijing T-Drive taxi GPS trajectories
+  analysis_unit: T-Drive activity segments generated from vehicle GPS time series
+  display_terms:
+    pickup_count: activity_start_count
+    dropoff_count: activity_end_count

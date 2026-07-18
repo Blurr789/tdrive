@@ -1,0 +1,3 @@
+model,mae,rmse,mape
+previous_hour_baseline,3.921,10.929,54.032
+random_forest,2.573,6.02,51.45

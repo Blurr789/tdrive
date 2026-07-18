@@ -1,0 +1,23 @@
+{
+  "manual": {
+    "pickup_count": 0.22,
+    "dropoff_count": 0.18,
+    "late_pickup_ratio": 0.16,
+    "weekend_boost": 0.14,
+    "activity_persistence": 0.16,
+    "short_trip_ratio": 0.08,
+    "max_hourly_activity": 0.06
+  },
+  "entropy": {
+    "pickup_count": 0.2154716549571983,
+    "dropoff_count": 0.18897797963912624,
+    "late_pickup_ratio": 0.10427186165333209,
+    "weekend_boost": 0.051406237932854884,
+    "activity_persistence": 0.0880719583943516,
+    "short_trip_ratio": 0.17315407034168892,
+    "max_hourly_activity": 0.17864623708144795
+  },
+  "pca": {
+    "first_component": "standardized composite vitality axis"
+  }
+}

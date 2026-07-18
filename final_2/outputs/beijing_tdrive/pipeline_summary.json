@@ -1,0 +1,60 @@
+{
+  "input_rows": 603553,
+  "clean_rows": 603553,
+  "night_rows": 157209,
+  "region_count": 2357,
+  "anomaly_count": 31,
+  "spatial_unit_type": "h3",
+  "top_regions": [
+    {
+      "spatial_unit": "8731aa571ffffff",
+      "night_vitality_score": 82.15,
+      "region_type": "mixed_evening_area"
+    },
+    {
+      "spatial_unit": "8731aa0a4ffffff",
+      "night_vitality_score": 82.07,
+      "region_type": "mixed_evening_area"
+    },
+    {
+      "spatial_unit": "8731aa19dffffff",
+      "night_vitality_score": 82.0,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa462ffffff",
+      "night_vitality_score": 81.5,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa18affffff",
+      "night_vitality_score": 81.49,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa475ffffff",
+      "night_vitality_score": 81.46,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa431ffffff",
+      "night_vitality_score": 81.45,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa50dffffff",
+      "night_vitality_score": 80.99,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa559ffffff",
+      "night_vitality_score": 80.95,
+      "region_type": "nightlife_core"
+    },
+    {
+      "spatial_unit": "8731aa550ffffff",
+      "night_vitality_score": 80.92,
+      "region_type": "nightlife_core"
+    }
+  ]
+}

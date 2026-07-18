@@ -1,0 +1,2 @@
+"""Static asset generation scripts."""
+
