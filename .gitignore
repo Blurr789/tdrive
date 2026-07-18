@@ -1,18 +1,32 @@
 data/
 video/
 report/
+final_2/
 
 # Python cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.cache/
 
 # Virtual environments
 .venv/
 venv/
 env/
 
+# App/runtime artifacts
+.streamlit/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+backend/.env
+outputs/beijing_tdrive/night_trips.csv
+outputs/beijing_tdrive/grid_name_lookup_raw.json
+*.log
+
 # OS/editor files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+.agents/
